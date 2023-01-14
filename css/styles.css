@@ -254,6 +254,21 @@ text-decoration: none;
    
 }
 }
+@media screen and (max-width:424px) {
+.social-list-menu {
+ display: flex;
+ justify-content: flex-start;
+ gap: 30px;
+}
+.link-phone {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #4D5AE5;
+  text-decoration: none;
+}
+}
 /* heder tablet*/
 
 @media screen and (min-width: 768px) {
